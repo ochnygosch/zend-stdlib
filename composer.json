@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zend-stdlib",
+    "name": "ochnygosch/zend-stdlib",
     "description": " ",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -47,5 +47,8 @@
             "ZendTest\\Stdlib\\": "test/",
             "ZendBench\\Stdlib\\": "benchmark/"
         }
+    },
+    "replace" : {
+        "zendframework/zend-stdlib" : "2.7.7"
     }
 }
